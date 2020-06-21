@@ -57,3 +57,12 @@ Please use these hints only if you get lost during solving the project.
     then for y coordinate
 8. Check in the if condition if the position in grid is free (equals to '-')
 
+## Bonusses 
+1. Add exception handling in case player specifies the position outside of the grid (like [3,3]) in this case the python should output: 
+    ```
+    You specified the position outside of the grid please reenter the positions. Please try again.
+    ```
+2. Add exception for handling cases when the player does not provide number, he provides for example string. In this case the pytho  should output: 
+    ```
+    You should provide only integer values as grid positions. Please try again.
+    ```

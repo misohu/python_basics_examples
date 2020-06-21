@@ -2,20 +2,20 @@
 # Files are stored at the path, the path differs accros windows and unix
 # File lines ends with line endings CR LF, \r\n (WINDOWS :'()) or just the LF \n (MAC)
 
-file_reader = open('data_file.txt')
+file_reader = open('FileFolder/data_file.txt')
 file_reader.close() # Dont forget to close PLEASE 
 
 # Using the python manager syntax 
-with open("data_file.txt", "r") as file:
+with open("FileFolder/data_file.txt", "r") as file:
     print(file) 
 
 # Open file types r-read, w-write, rb-read in binary mode, wb-write in binary mode
-with open("data_file.txt", "r") as file:
+with open("FileFolder/data_file.txt", "r") as file:
     print(file.readline(1))
     print(file.readline(1)) # Guess the output
     print(file.readline(2)) # Guess the output 
 
-with open("data_file.txt", "r") as file:
+with open("FileFolder/data_file.txt", "r") as file:
     print(file.readlines())
 
 
